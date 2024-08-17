@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body background="f79230_fd89e316584b42c9a3e82b492687b46e~mv2.gif">
+  <h3>DJ</h3>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+    Instrucciones
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Instrucciones</h4>
+        </div>
+        <div class="modal-body">
+          <h6>Mueve tu mano derecha hacia arriba para disminuir el volumen y hacia abajo para aumentar</h6>
+          <h6>Mueve tu mano izquierda hacia arriba para aumentar la velocidad y hacia abajo para disminuir</h6>
+          <h6>Cubre tu oreja derecha para reproducir, y la izquierda para pausar</h6>
+          <h6>Junta tus dos manos para pasar a la siguiente canción</h6>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

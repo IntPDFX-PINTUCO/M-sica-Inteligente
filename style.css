@@ -1,0 +1,13 @@
+body{
+    background-size: cover;
+}
+h3{
+    color:rgb(1, 180, 79)!important;
+    font-size: 35px!important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif!important; 
+    text-align: center;
+}
+button{
+    margin-left: 650px!important;
+    margin-top: 20px!important;
+}
